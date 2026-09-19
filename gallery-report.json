@@ -1,0 +1,182 @@
+[
+  {
+    "name": "world-1-1",
+    "world": 1,
+    "level": 1,
+    "title": "The Mushroom Kingdom",
+    "caption": "Familiar terrain, rebuilt in red.",
+    "state": {
+      "frame": 136,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 192,
+      "page": 0,
+      "y": 94,
+      "world": 0,
+      "level": 0,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-1-2",
+    "world": 1,
+    "level": 2,
+    "title": "Below the surface",
+    "caption": "Brick corridors and underground atmosphere.",
+    "state": {
+      "frame": 131,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 117,
+      "page": 0,
+      "y": 107,
+      "world": 0,
+      "level": 1,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-1-3",
+    "world": 1,
+    "level": 3,
+    "title": "Above the treetops",
+    "caption": "Elevated platforms against layered scenery.",
+    "state": {
+      "frame": 194,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 81,
+      "page": 1,
+      "y": 160,
+      "world": 0,
+      "level": 2,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-1-4",
+    "world": 1,
+    "level": 4,
+    "title": "Inside the castle",
+    "caption": "Lava, masonry and a darker mood.",
+    "state": {
+      "frame": 112,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 99,
+      "page": 0,
+      "y": 128,
+      "world": 0,
+      "level": 3,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-2-2",
+    "world": 2,
+    "level": 2,
+    "title": "Underwater",
+    "caption": "Swimming through the submerged world.",
+    "state": {
+      "frame": 143,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 135,
+      "page": 0,
+      "y": 88,
+      "world": 1,
+      "level": 1,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-3-1",
+    "world": 3,
+    "level": 1,
+    "title": "After dark",
+    "caption": "The overworld under a night sky.",
+    "state": {
+      "frame": 136,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 192,
+      "page": 0,
+      "y": 94,
+      "world": 2,
+      "level": 0,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-4-1",
+    "world": 4,
+    "level": 1,
+    "title": "Lakitu country",
+    "caption": "Clouds and open skies in World 4.",
+    "state": {
+      "frame": 136,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 192,
+      "page": 0,
+      "y": 94,
+      "world": 3,
+      "level": 0,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-6-3",
+    "world": 6,
+    "level": 3,
+    "title": "High-altitude platforms",
+    "caption": "Pale treetops and precarious jumps.",
+    "state": {
+      "frame": 194,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 81,
+      "page": 1,
+      "y": 176,
+      "world": 5,
+      "level": 2,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  },
+  {
+    "name": "world-7-4",
+    "world": 7,
+    "level": 4,
+    "title": "Castle labyrinth",
+    "caption": "Late-game castle architecture.",
+    "state": {
+      "frame": 160,
+      "mode": 1,
+      "task": 3,
+      "engine": 8,
+      "x": 171,
+      "page": 0,
+      "y": 65,
+      "world": 6,
+      "level": 3,
+      "lives": 2
+    },
+    "method": "Actual V3 ROM rendered in Beetle VB; starting-level fields seeded by test harness, then ordinary controller inputs."
+  }
+]

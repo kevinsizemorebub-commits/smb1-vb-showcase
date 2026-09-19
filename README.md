@@ -1,27 +1,30 @@
-# SMB1 Stereo — World 1-1 showcase
+# SMB1 Stereo — Super Mario Bros. for Virtual Boy
 
-A complete, continuous, tool-assisted playthrough of the supplied **SMB1 Stereo V3 Virtual Boy conversion**, recorded September 19, 2026.
+An unofficial native Virtual Boy port of Super Mario Bros., with layered stereoscopic graphics, VSU audio and the original level layouts.
 
-![World 1-1 on Virtual Boy](media/07-stairs.png)
+![World 1-3 on Virtual Boy](media/world-1-3.png)
 
-- **45.295 seconds**, from boot through the World 1-2 screen.
-- **Zero deaths**; three lives remain. Final score: **19,650**; nine coins.
-- Single-eye and side-by-side stereo MP4s, both with cartridge audio.
-- Ten screenshots, plus native-resolution stereo versions.
-- Responsive static website with video view switching and chapter navigation.
+## The port
 
-Watch [single-eye video](media/world-1-1.mp4) or [stereo video](media/world-1-1-stereo.mp4). Open `index.html` for the showcase, or serve this folder with any static web server.
+- Native V810 gameplay adapted from SMB Vanilla.
+- Original eight worlds and 32 stage layouts; all stages load/render tested.
+- Adjustable stereo depth (0–3): background scenery, gameplay plane and foreground HUD.
+- Native VSU music and effects adaptation.
+- V3 timer-driven pacing targets 60 game updates per second independently of rendering.
+- 256 KiB cartridge, with Windows Mednafen launchers in the original local game package.
 
-See [full documentation](DOCUMENTATION.md), [capture evidence](capture-report.json), [controller sequence](route.json), and [credits](CREDITS.md).
+This is a first playable port. V3 physical hardware behavior still needs confirmation. Campaign-wide tests establish loading/rendering, not complete playthroughs.
 
-## GitHub Pages
+## Showcase
 
-Upload this folder's contents to a new repository named `smb1-vb-showcase`. In **Settings → Pages**, choose **Deploy from a branch**, then **main / (root)** and save. No build step is required. The `.nojekyll` file enables plain static publishing. The project site will be under the repository owner's `github.io` domain at `/smb1-vb-showcase/`.
+Open `index.html` or visit the repository's GitHub Pages site. The site includes nine screenshots from different locations across six worlds, paired stereo views, controls, development notes and a complete World 1-1 gameplay demonstration. The 45-second demo has zero deaths and includes native audio, the underground shortcut, flagpole, castle tally and transition to World 1-2. It is a tool-assisted controller replay, not a speedrun submission.
 
-Reference: [GitHub's publishing-source documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Gallery levels were staged with the development harness; see [gallery provenance](gallery-report.json). The continuous first-level demo uses no RAM writes, save-state loads or splices; see [capture evidence](capture-report.json) and [input sequence](route.json).
 
-## Scope
+[Full documentation](DOCUMENTATION.md) · [Credits](CREDITS.md) · [Gameplay video](media/world-1-1.mp4) · [Stereo video](media/world-1-1-stereo.mp4)
 
-The route uses the underground pipe shortcut. It clears World 1-1; it does not visit every overworld tile or attempt an optimal leaderboard time. Recorded footage uses the unmodified cartridge with ordinary timed controller inputs. No save-state loads, RAM writes, cheats, gameplay patches or video splices are used in the final replay.
+## Publishing
 
-This repository contains presentation material, not a game ROM, extracted game assets, or emulator/toolchain binaries. Super Mario Bros. belongs to Nintendo. This is an unofficial personal conversion and showcase.
+This is a plain static site. GitHub Pages can publish from `main / (root)` using **Settings → Pages → Deploy from a branch**. No build step is needed. See [GitHub's documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+Super Mario Bros. © Nintendo. Unofficial and unaffiliated. This repository contains footage and documentation, not the ROM, extracted game assets or emulator/toolchain binaries.

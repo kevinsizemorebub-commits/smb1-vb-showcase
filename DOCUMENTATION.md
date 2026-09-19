@@ -1,4 +1,12 @@
-# SMB1 Stereo capture and conversion notes
+# SMB1 Stereo — game, Virtual Boy port and capture notes
+
+SMB1 Stereo brings the original Super Mario Bros. layouts and gameplay to a native Virtual Boy cartridge. Its defining changes are layered stereoscopic scenery, Virtual Boy graphics and sound output, and hardware-specific display synchronization. The website presents the game and conversion first; the first-level video is supporting gameplay evidence.
+
+## World gallery
+
+Nine newly captured scenes cover Worlds 1-1, 1-2, 1-3, 1-4, 2-2, 3-1, 4-1, 6-3 and 7-4: overworld, underground, treetops, castles, underwater and night environments. These scenes were staged by seeding the starting-world/level fields through the existing test harness, then rendering the actual V3 cartridge and applying short ordinary movement/jump inputs. This gallery is a visual tour, not a claim of full playthroughs of those stages. The paired stereo PNGs preserve both eyes at native resolution. See `gallery-report.json` for the captured level states.
+
+The no-memory-write and no-save-state statements below apply to the continuous World 1-1 video, not the staged world gallery.
 
 ## Result
 
@@ -20,11 +28,11 @@ The output is an uncut **45.295404814-second** replay containing **2,277 emulato
 | Core-reported display rate | 50.27 Hz |
 | Core-reported audio rate | 44,100 Hz, stereo |
 | Gameplay target | 60 updates per second, using the V3 hardware-timer implementation |
-| Single-eye video | 1152 × 672, H.264 with AAC audio |
-| Stereo video | 1536 × 448, H.264 with AAC audio |
+| Single-eye video | 1152 Ã— 672, H.264 with AAC audio |
+| Stereo video | 1536 Ã— 448, H.264 with AAC audio |
 | Scaling | Integer nearest-neighbor; no interpolation |
 
-The core produces a 768 × 224 side-by-side framebuffer. The single-eye presentation uses its left 384 × 224 half. Both eye views are retained in the stereo video and the `-stereo.png` screenshots. The raw frame cadence is preserved; encoding speed does not determine playback speed. Audio samples are collected directly from the core.
+The core produces a 768 Ã— 224 side-by-side framebuffer. The single-eye presentation uses its left 384 Ã— 224 half. Both eye views are retained in the stereo video and the `-stereo.png` screenshots. The raw frame cadence is preserved; encoding speed does not determine playback speed. Audio samples are collected directly from the core.
 
 ## Route and controls
 
