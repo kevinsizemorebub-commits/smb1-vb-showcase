@@ -1,0 +1,1349 @@
+{
+  "rom_sha256": "d9952d28f0dd29a7da6ac5bcc377a8760bdc09d4856a5bf286091ba0b166c8fe",
+  "fps": 50.27,
+  "sample_rate": 44100.0,
+  "frames": 2277,
+  "duration": 45.29540481400437,
+  "final_state": {
+    "frame": 104,
+    "mode": 1,
+    "task": 1,
+    "engine": 0,
+    "x": 0,
+    "page": 0,
+    "y": 0,
+    "world": 0,
+    "level": 1,
+    "lives": 2
+  },
+  "no_deaths": true,
+  "method": "Unmodified ROM; continuous controller-input replay from boot; no RAM writes, cheats, save states or splices.",
+  "screenshots": [
+    {
+      "name": "01-title",
+      "label": "SMB1 Stereo title",
+      "time": 1.989,
+      "state": {
+        "frame": 112,
+        "mode": 0,
+        "task": 3,
+        "engine": 8,
+        "x": 40,
+        "page": 0,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "02-start",
+      "label": "World 1-1 begins",
+      "time": 5.47,
+      "state": {
+        "frame": 207,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 40,
+        "page": 0,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "03-pipes",
+      "label": "Opening pipe jumps",
+      "time": 8.713,
+      "state": {
+        "frame": 145,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 213,
+        "page": 1,
+        "y": 93,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "04-underground",
+      "label": "The underground shortcut",
+      "time": 14.939,
+      "state": {
+        "frame": 28,
+        "mode": 1,
+        "task": 3,
+        "engine": 7,
+        "x": 24,
+        "page": 0,
+        "y": 32,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "05-coins",
+      "label": "Collecting coins",
+      "time": 17.147,
+      "state": {
+        "frame": 160,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 153,
+        "page": 0,
+        "y": 45,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "06-return",
+      "label": "Back above ground",
+      "time": 26.139,
+      "state": {
+        "frame": 204,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 147,
+        "page": 10,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "07-stairs",
+      "label": "The final staircase",
+      "time": 29.839,
+      "state": {
+        "frame": 170,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 173,
+        "page": 11,
+        "y": 36,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "08-flag",
+      "label": "Flagpole reached",
+      "time": 32.962,
+      "state": {
+        "frame": 101,
+        "mode": 1,
+        "task": 3,
+        "engine": 4,
+        "x": 89,
+        "page": 12,
+        "y": 156,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "09-castle",
+      "label": "Castle and score tally",
+      "time": 40.919,
+      "state": {
+        "frame": 67,
+        "mode": 1,
+        "task": 3,
+        "engine": 5,
+        "x": 194,
+        "page": 12,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "name": "10-clear",
+      "label": "World 1-2 unlocked",
+      "time": 45.295,
+      "state": {
+        "frame": 104,
+        "mode": 1,
+        "task": 1,
+        "engine": 0,
+        "x": 0,
+        "page": 0,
+        "y": 0,
+        "world": 0,
+        "level": 1,
+        "lives": 2
+      }
+    }
+  ],
+  "checkpoints": [
+    {
+      "action": 0,
+      "frame": 300,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 237,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 65,
+        "page": 0,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 1,
+      "frame": 320,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 4,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 117,
+        "page": 0,
+        "y": 100,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 2,
+      "frame": 350,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 40,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 207,
+        "page": 0,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 3,
+      "frame": 370,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 64,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 11,
+        "page": 1,
+        "y": 99,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 4,
+      "frame": 390,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 88,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 71,
+        "page": 1,
+        "y": 168,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 5,
+      "frame": 411,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 113,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 133,
+        "page": 1,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 6,
+      "frame": 438,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 145,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 213,
+        "page": 1,
+        "y": 93,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 7,
+      "frame": 451,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 161,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 253,
+        "page": 1,
+        "y": 141,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 8,
+      "frame": 465,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 177,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 37,
+        "page": 2,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 9,
+      "frame": 492,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 210,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 120,
+        "page": 2,
+        "y": 93,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 10,
+      "frame": 500,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 219,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 142,
+        "page": 2,
+        "y": 117,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 11,
+      "frame": 512,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 234,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 180,
+        "page": 2,
+        "y": 161,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 12,
+      "frame": 540,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 11,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 210,
+        "page": 2,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 13,
+      "frame": 542,
+      "buttons": [
+        0
+      ],
+      "state": {
+        "frame": 13,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 210,
+        "page": 2,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 14,
+      "frame": 572,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 49,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 217,
+        "page": 2,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 15,
+      "frame": 579,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 58,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 226,
+        "page": 2,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 16,
+      "frame": 584,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 64,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 235,
+        "page": 2,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 17,
+      "frame": 622,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 109,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 84,
+        "page": 3,
+        "y": 65,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 18,
+      "frame": 626,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 114,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 96,
+        "page": 3,
+        "y": 85,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 19,
+      "frame": 644,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 135,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 130,
+        "page": 3,
+        "y": 169,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 20,
+      "frame": 647,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 139,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 130,
+        "page": 3,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 21,
+      "frame": 679,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 177,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 139,
+        "page": 3,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 22,
+      "frame": 686,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 185,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 147,
+        "page": 3,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 23,
+      "frame": 751,
+      "buttons": [
+        5
+      ],
+      "state": {
+        "frame": 28,
+        "mode": 1,
+        "task": 3,
+        "engine": 7,
+        "x": 24,
+        "page": 0,
+        "y": 32,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 24,
+      "frame": 769,
+      "buttons": [],
+      "state": {
+        "frame": 49,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 24,
+        "page": 0,
+        "y": 71,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 25,
+      "frame": 792,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 77,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 39,
+        "page": 0,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 26,
+      "frame": 817,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 107,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 56,
+        "page": 0,
+        "y": 106,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 27,
+      "frame": 837,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 130,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 83,
+        "page": 0,
+        "y": 128,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 28,
+      "frame": 862,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 160,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 153,
+        "page": 0,
+        "y": 45,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 29,
+      "frame": 942,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 0,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 226,
+        "page": 0,
+        "y": 144,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 30,
+      "frame": 967,
+      "buttons": [
+        6
+      ],
+      "state": {
+        "frame": 30,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 204,
+        "page": 0,
+        "y": 144,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 31,
+      "frame": 982,
+      "buttons": [],
+      "state": {
+        "frame": 48,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 185,
+        "page": 0,
+        "y": 168,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 32,
+      "frame": 1047,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 125,
+        "mode": 1,
+        "task": 3,
+        "engine": 2,
+        "x": 208,
+        "page": 0,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 33,
+      "frame": 1167,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 28,
+        "mode": 1,
+        "task": 3,
+        "engine": 7,
+        "x": 56,
+        "page": 10,
+        "y": 236,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 34,
+      "frame": 1227,
+      "buttons": [],
+      "state": {
+        "frame": 100,
+        "mode": 1,
+        "task": 3,
+        "engine": 7,
+        "x": 56,
+        "page": 10,
+        "y": 164,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 35,
+      "frame": 1252,
+      "buttons": [],
+      "state": {
+        "frame": 130,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 56,
+        "page": 10,
+        "y": 144,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 36,
+      "frame": 1268,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 149,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 66,
+        "page": 10,
+        "y": 144,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 37,
+      "frame": 1306,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 194,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 131,
+        "page": 10,
+        "y": 91,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 38,
+      "frame": 1314,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 204,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 147,
+        "page": 10,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 39,
+      "frame": 1324,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 216,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 173,
+        "page": 10,
+        "y": 112,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 40,
+      "frame": 1362,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 5,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 29,
+        "page": 11,
+        "y": 65,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 41,
+      "frame": 1374,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 19,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 64,
+        "page": 11,
+        "y": 121,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 42,
+      "frame": 1383,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 30,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 82,
+        "page": 11,
+        "y": 160,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 43,
+      "frame": 1413,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 66,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 103,
+        "page": 11,
+        "y": 96,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 44,
+      "frame": 1421,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 75,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 115,
+        "page": 11,
+        "y": 126,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 45,
+      "frame": 1426,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 81,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 114,
+        "page": 11,
+        "y": 128,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 46,
+      "frame": 1456,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 117,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 137,
+        "page": 11,
+        "y": 64,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 47,
+      "frame": 1462,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 124,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 147,
+        "page": 11,
+        "y": 86,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 48,
+      "frame": 1468,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 132,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 146,
+        "page": 11,
+        "y": 96,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 49,
+      "frame": 1500,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 170,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 173,
+        "page": 11,
+        "y": 36,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 50,
+      "frame": 1508,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 179,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 178,
+        "page": 11,
+        "y": 64,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 51,
+      "frame": 1534,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 210,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 193,
+        "page": 11,
+        "y": 254,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 52,
+      "frame": 1556,
+      "buttons": [],
+      "state": {
+        "frame": 237,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 220,
+        "page": 11,
+        "y": 48,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 53,
+      "frame": 1611,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 46,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 53,
+        "page": 12,
+        "y": 98,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 54,
+      "frame": 1629,
+      "buttons": [
+        7,
+        0
+      ],
+      "state": {
+        "frame": 68,
+        "mode": 1,
+        "task": 3,
+        "engine": 8,
+        "x": 82,
+        "page": 12,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 55,
+      "frame": 1657,
+      "buttons": [
+        7,
+        0,
+        8
+      ],
+      "state": {
+        "frame": 101,
+        "mode": 1,
+        "task": 3,
+        "engine": 4,
+        "x": 89,
+        "page": 12,
+        "y": 156,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 56,
+      "frame": 2057,
+      "buttons": [],
+      "state": {
+        "frame": 67,
+        "mode": 1,
+        "task": 3,
+        "engine": 5,
+        "x": 194,
+        "page": 12,
+        "y": 176,
+        "world": 0,
+        "level": 0,
+        "lives": 2
+      }
+    },
+    {
+      "action": 57,
+      "frame": 2277,
+      "buttons": [],
+      "state": {
+        "frame": 104,
+        "mode": 1,
+        "task": 1,
+        "engine": 0,
+        "x": 0,
+        "page": 0,
+        "y": 0,
+        "world": 0,
+        "level": 1,
+        "lives": 2
+      }
+    }
+  ]
+}
